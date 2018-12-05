@@ -1,0 +1,310 @@
+body{
+	background-color: #494646;
+	color: white;
+	font-size: 100%;
+}
+
+.donutchart{
+	background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 3%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+li a:hover:not(.active) {
+    background-color: #336b7c;
+}
+
+.active {
+    background-color: #931d1d;
+}
+
+input[type=text],[type=email],[type=password], [type=date] {
+    width: 220px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.registro{
+	width: 220px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #336b7c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+input.form_login {
+	width: 250px;
+}
+
+select {
+    width: 55%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #336b7c;
+}
+
+div.cadastro{
+	text-align: center;
+	color: white;
+	margin-left:35% ;
+	background-color: #333;
+	border-radius: 10%;
+	width: 30%;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin-left: 190px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin-left: 150px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.checkmark3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin-left: 155px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.checkmark4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin-left: 130px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.container .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 5px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+
+.container:hover input ~ .checkmark2 {
+    background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+}
+
+
+.checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked ~ .checkmark2:after {
+    display: block;
+}
+
+
+.container .checkmark2:after {
+ 	top: 5px;
+	left: 5px;
+	width: 5px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+.container:hover input ~ .checkmark3 {
+    background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark3 {
+    background-color: #2196F3;
+}
+
+
+.checkmark3:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked ~ .checkmark3:after {
+    display: block;
+}
+
+
+.container .checkmark3:after {
+ 	top: 5px;
+	left: 5px;
+	width: 5px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+
+.container:hover input ~ .checkmark4 {
+    background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark4 {
+    background-color: #2196F3;
+}
+
+
+.checkmark4:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked ~ .checkmark4:after {
+    display: block;
+}
+
+
+.container .checkmark4:after {
+ 	top: 5px;
+	left: 5px;
+	width: 5px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+div.livro{
+	text-align: center;
+	background-color: #333;
+	margin-left:35% ;
+	width: 30%;
+	border-radius: 10%;
+}
+
+div.graficos{
+	color: white;
+	 ;
+}
+
+div.form_login{
+	text-align: center;
+	background-color: #333;
+	margin-left:35% ;
+	border-radius: 10%;
+	width: 30%;
+}

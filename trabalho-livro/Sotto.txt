@@ -1,0 +1,13 @@
+$select = "SELECT asdasdsa FROM asdasdasd";
+$result = mysqli_query();
+
+$valores['gosta'] = 0;
+$valores['ngosta'] = 0;
+
+while($a){
+	ifs $a == gosta{
+		$valores['gosta']++;
+	}else{
+		$valores['ngosta']++;
+	}
+}
